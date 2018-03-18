@@ -5,7 +5,11 @@ ATmega328p MCU was used for testing.<br>
 You may need to modify SPI features to use this libary for other AVR MCUs.
 
 I've downloaded LCD5110_Graph library for arduino and modified codes to make it run on Atmel Studio 7.<br>
-Some of functions are modified at my convenience.
+Some of functions are modified at my convenience.<br>
+1) Combine draw & clear functions<br>
+2) Add fill options<br>
+3) Changed draw circle function<br>
+4) AVR compatible code<br>
 
 Reference
 Original libiray : http://www.rinkydinkelectronics.com/library.php?id=47<br>
